@@ -1,1 +1,25 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+  --main-font-family: 'Inter-Variable';
+  --accent-font-family: 'PressStart2P-Regular';
+  --min-width: 375px;
+  --max-width: 700px;
+  --border-color: #000;
+  --accent-color:#000;
+  --bgcolor: #fff;
+  --font-weight-text: 400;
+  --bgcolor: #fff;
+  --background-image:
+  repeating-linear-gradient(
+    to right,#d3d3d3 0 2px,transparent 2px 4px),
+  repeating-linear-gradient(
+    to bottom,#d3d3d3 0 2px,transparent 2px 4px),
+  linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
+  --transition-duration: 0.3s;
+  --transition-timing-function: ease;
+  --hover-transition-duration: 0.5s;
+  --name: #000;
+  --like-heart: red;
+  --background-color-backdrop: rgba(0, 0, 0, 0.75);
+}
