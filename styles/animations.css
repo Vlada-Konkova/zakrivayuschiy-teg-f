@@ -16,6 +16,7 @@
 .theme-menu__button:disabled::before {
   position: absolute;
   content: "▶";
+  top: 0;
   left: -20px;
   transform: translateY(-50%);
   animation: changesArrow 0.5s ease-in-out infinite alternate;
@@ -45,7 +46,7 @@
 .contour {
   fill: var(--contour-fill);
   opacity: 1;
-  transition: opacity 0.3s linear;
+  transition: opacity 0.1s linear;
 }
 
 .core {

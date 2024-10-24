@@ -8,7 +8,6 @@
   --border-color: #000;
   --accent-color:#000;
   --bgcolor: #fff;
-  --font-weight-text: 785;
   --bgcolor: #fff;
   --background-image:
   repeating-linear-gradient(
@@ -21,4 +20,5 @@
   --hover-transition-duration: 0.5s;
   --name: #000;
   --like-heart: red;
+  --background-color-backdrop: #000;
 }
