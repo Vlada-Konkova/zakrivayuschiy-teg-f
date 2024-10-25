@@ -20,7 +20,7 @@
   min-block-size: 100dvb;
   font-family: var(--main-font-family), sans-serif;
   color: var(--accent-color);
-  font-variation-settings: "wgth" var(--font-weight-text), "wdth" 0, "opsz" 0;
+  font-variation-settings: "wgth" var(--font-weight), "wdth" 0, "opsz" 0;
   background-color: var(--bgcolor);
   background-image: var(--background-image);
   margin: 0 auto;
