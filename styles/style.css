@@ -21,7 +21,7 @@
   font-family: var(--main-font-family), sans-serif;
   font-variation-settings: "wght" var(--font-weight);
   color: var(--accent-color);
-  font-weight: var(--font-weight-text);
+  font-variation-settings: "wgth" var(--font-weight-text), "wdth" 0, "opsz" 0;
   background-color: var(--bgcolor);
   background-image: var(--background-image);
   margin: 0 auto;
@@ -115,8 +115,11 @@
   transition: width 300ms, background-color 0.5s;
 }
 
-.theme-menu__button:focus-visible {
+.theme-menu__button:focus {
   outline: none;
+}
+
+.theme-menu__button:focus-visible {
   opacity: 0.6;
 }
 
@@ -145,6 +148,7 @@
 
 .section-text {
   font-family: var(--main-font-family), sans-serif;
+  font-weight: var(--font-weight-text);
   font-size: 18px;
   padding-inline: 10px;
   padding-block: 5px;
@@ -268,7 +272,7 @@
   border-color: var(--border-color);
 }
 
-.button-text {
+.button__text {
   font-family: var(--accent-font-family), sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -298,8 +302,11 @@
   color: var(--accent-color);
 }
 
-.button:focus-visible {
+.button:focus {
   outline: none;
+}
+
+.button:focus-visible {
   box-shadow: 2px 2px 0 var(--accent-color);
 }
 
@@ -342,8 +349,9 @@
   background-color: var(--bgcolor);
   padding-block: 30px;
   padding-inline: clamp(1.875rem, 3.221rem + -3.077vw, 2.5rem);
-  max-width: clamp(21.313rem, 20.159rem + 4.923vw, 22.313rem);
+  max-width: 353px;
   row-gap: 30px;
+  flex-direction: column;
 }
 
 dialog::backdrop {
@@ -353,7 +361,6 @@ dialog::backdrop {
 
 .dialog[open] {
   display: flex;
-  flex-direction: column;
 }
 
 .dialog__content {
@@ -399,7 +406,7 @@ dialog::backdrop {
   .card-text {
     top: 60px;
     right: clamp(0.813rem, 0.548rem + 1.127vw, 1.563rem);
-}
+  }
 
   .filter-contrast .card-text {
     top: clamp(5rem, 6.21rem + -5.164vw, 1.563rem);
@@ -419,6 +426,10 @@ dialog::backdrop {
   .floppy {
     width: 28px;
     height: 28px;
+  }
+
+  .dialog {
+    width: 341px;
   }
 
   .dialog__content {

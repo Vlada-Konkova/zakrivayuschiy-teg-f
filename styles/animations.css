@@ -100,7 +100,6 @@
 
 .like-icon.is-liked .heart {
   transform-origin: center;
-  /* error */
   animation: 0.3s ease-in 0.1s 1 alternate scaleMove;
 }
 
