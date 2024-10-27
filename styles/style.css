@@ -147,7 +147,7 @@
 
 .section-text {
   font-family: var(--main-font-family), sans-serif;
-  font-weight: var(--font-weight-text);
+  font-variation-settings: "wght" var(--font-weight-text, 700);
   font-size: 18px;
   padding-inline: 10px;
   padding-block: 5px;

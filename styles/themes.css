@@ -10,7 +10,7 @@
   --accent-color: #00cc14;
   --bgcolor: #000;
   --fill-name: #00cc14;
-  --font-weight: 400 785;
+  --font-weight: 400;
   --font-weight-text: 785;
   --font-weight-subtext: 465;
   --card-text-shadow: #000;
@@ -31,7 +31,7 @@
   --accent-color: #000;
   --fill-name: #000;
   --bgcolor: #fff;
-  --font-weight: 400 785;
+  --font-weight: 400;
   --font-weight-text: 700;
   --font-weight-subtext: 400;
   --card-text-shadow: #fff;
@@ -53,7 +53,7 @@
     --accent-color: #00cc14;
     --fill-name: #00cc14;
     --bgcolor: #000;
-    --font-weight: 400 785;
+    --font-weight: 400;
     --font-weight-text: 785;
     --font-weight-subtext: 465;
     --card-text-shadow: #000;
